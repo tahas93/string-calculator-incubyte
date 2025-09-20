@@ -27,3 +27,7 @@ test('support single delimiter between numbers', () => {
 test('support multi delimiter between numbers', () => {
   expect(add('//;\n1;2;3')).toBe(6);
 });
+
+test('negative numbers not allowed', () => {
+    expect(()=> add('-1')).toThrow('negative numbers not allowed -1');
+});
