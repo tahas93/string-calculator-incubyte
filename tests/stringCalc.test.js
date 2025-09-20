@@ -31,3 +31,7 @@ test('support multi delimiter between numbers', () => {
 test('negative numbers not allowed', () => {
     expect(()=> add('-1')).toThrow('negative numbers not allowed : -1');
 });
+
+test('multi negative numbers not allowed', () => {
+    expect(()=> add('-1,2,-3,4')).toThrow('negative numbers not allowed : -1,-3');
+});
