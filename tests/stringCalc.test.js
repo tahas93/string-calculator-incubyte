@@ -19,3 +19,7 @@ test('multiple numbers', () => {
 test('new line allowed between numbers', () => {
     expect(add('1\n2,3')).toBe(6);
 });
+
+test('support single delimiter between numbers', () => {
+    expect(add('//;\n1,2')).toBe(3);
+});
