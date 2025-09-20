@@ -11,3 +11,7 @@ test('signle number returns value', () => {
 test('two comma-seperated numbers', () => {
     expect(add('1,2')).toBe(3);
 });
+
+test('multiple numbers', () => {
+    expect(add('1,2,3,4')).toBe(10);
+});
