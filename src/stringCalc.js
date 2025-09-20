@@ -1,5 +1,6 @@
 function add(input) {
-    return 0;
+    if(input === '' || input == null) return 0;
+    return parseInt(input, 10);
 }
 
 module.exports = {add};
