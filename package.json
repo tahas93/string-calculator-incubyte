@@ -1,0 +1,23 @@
+{
+  "name": "string-calculator-incubyte",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tahas93/string-calculator-incubyte.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tahas93/string-calculator-incubyte/issues"
+  },
+  "homepage": "https://github.com/tahas93/string-calculator-incubyte#readme",
+  "devDependencies": {
+    "jest": "^30.1.3"
+  }
+}
